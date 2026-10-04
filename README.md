@@ -8,7 +8,8 @@ Custom plugin for streamlink implementing support for Sweet.TV (requires cookie 
 - Clone [streamlink](https://github.com/streamlink/streamlink) via git (or download via Code->Zip, then extract to a directory).
 - Open your directory.
 - Copy the plugin .py file into `src/streamlink/plugins/`(this will sideload the plugin).
-- Run streamlink via `python -m streamlink_cli "your_sweettv_link" best --http-cookies-file "your_sweettv_cookies.txt"`.
+- Go back to the root of your directory(leave `src/streamlink/plugins/` chain).
+- Open your command line utility of choice & run streamlink via `python -m streamlink_cli "your_sweettv_link" best --http-cookies-file "your_sweettv_cookies.txt"` command.
 
 ### Questions
 
