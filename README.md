@@ -1,5 +1,4 @@
 ### Streamlink Sweet.TV plugin
-Custom plugin for streamlink implementing support for Sweet.TV (requires cookie authentication)
 
 ---
 
@@ -11,6 +10,8 @@ Custom plugin for streamlink implementing support for Sweet.TV (requires cookie 
 - Go back to the root of your directory(leave `src/streamlink/plugins/` chain).
 - Open your command line utility of choice & run streamlink via `python -m streamlink_cli "your_sweettv_link" best --http-cookies-file "your_sweettv_cookies.txt"` command.
 
+---
+
 ### Questions
 
 ## How to get cookies?
@@ -19,6 +20,8 @@ Download it, open sweet.tv(with your account logged on) and then open the extens
 Place the .txt file wherever and just pass the path to it via --http-cookies-file argument.
 
 ***Do NOT share those cookies anywhere, as you might get your account hacked.***
+
+Read the errors, if it mentions anything about authentication failure, your cookies probably expired — redownload them.
 
 ## How do I know if this is safe?
 Open the file, read the code, or send it to an LLM(like chatgpt or claude) and ask about it if you're unsure.
